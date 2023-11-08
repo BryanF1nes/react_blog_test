@@ -33,6 +33,12 @@
   margin: 40px auto;
   padding: 20px;
 }
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 /* blog previews */
 .blog-preview {
@@ -72,6 +78,9 @@
   border: 1px solid #ddd;
   box-sizing: border-box;
   display: block;
+}
+.create textarea {
+  height: 200px;
 }
 .create button {
   background: #f1356d;
